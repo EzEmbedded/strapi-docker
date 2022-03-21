@@ -27,7 +27,7 @@ jobs:
         with:
           file: ./strapi/Dockerfile
           push: true
-          tags: egahmad/strapi-docker:latest
+          tags: scanlidocker/strapi-docker:latest
           build-args: |
             STRAPI_VERSION=4.0.2
             BASE_VERSION=latest
